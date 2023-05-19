@@ -1,3 +1,8 @@
+var today = dayjs();
+$('#1a').text(today.format('MMM D, YYYY'));
+
+console.log(today);
+
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
