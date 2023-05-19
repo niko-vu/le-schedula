@@ -1,7 +1,11 @@
-var today = dayjs();
-$('#1a').text(today.format('MMM D, YYYY'));
+// var today = dayjs();
+// $('#1a').text(today.format('MMM D, YYYY'));
+var today = dayjs().format('dddd, MMM D, YYYY');
 
 console.log(today);
+
+var currentDate = document.getElementById("currentDay");
+currentDate.textContent = today;
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
