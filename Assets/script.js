@@ -1,11 +1,28 @@
-// var today = dayjs();
-// $('#1a').text(today.format('MMM D, YYYY'));
+// Displaying current day at top of page....
 var today = dayjs().format('dddd, MMM D, YYYY');
+var currentDate = document.getElementById("currentDay");
 
+currentDate.textContent = today;
 console.log(today);
 
-var currentDate = document.getElementById("currentDay");
-currentDate.textContent = today;
+var hour = dayjs().hour();
+console.log(hour);
+
+var hour = "hour-" + dayjs().hour();
+console.log(hour);
+
+var timeBlock = document.getElementsByClassName("time-block");
+
+var hour9 = document.getElementById("hour-9");
+hour9.firstElementChild.textContent = "9AM";
+
+
+
+// function label() {
+//   if (timeBlock.textContent == hour) {
+//     timeBlock.classList.add("present");
+//   } else if (timeBlock.textContent > )
+// }
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
