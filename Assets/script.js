@@ -14,87 +14,83 @@ var hour12 = document.getElementById("hour-12");
 var hour13 = document.getElementById("hour-13");
 var hour14 = document.getElementById("hour-14");
 var hour15 = document.getElementById("hour-15");
+var hour16 = document.getElementById("hour-16");
+var hour17 = document.getElementById("hour-17");
 
 console.log(today);
 console.log(hour);
 
 if (hour9.classList[2] < hour) {
-  console.log("poop");
   hour9.classList.add("past");
 } else if (hour9.classList[2] == hour) {
-  console.log("pee");
   hour9.classList.add("present");
 } else {
-  console.log("fart");
   hour9.classList.add("future");
 }
 
 if (hour10.classList[2] < hour) {
-  console.log("poop");
   hour10.classList.add("past");
 } else if (hour10.classList[2] == hour) {
-  console.log("pee");
   hour10.classList.add("present");
 } else {
-  console.log("fart");
   hour10.classList.add("future");
 }
 
 if (hour11.classList[2] < hour) {
-  console.log("poop");
   hour11.classList.add("past");
 } else if (hour11.classList[2] == hour) {
-  console.log("pee");
   hour11.classList.add("present");
 } else {
-  console.log("fart");
   hour11.classList.add("future");
 }
 
 if (hour12.classList[2] < hour) {
-  console.log("poop");
   hour12.classList.add("past");
 } else if (hour12.classList[2] == hour) {
-  console.log("pee");
   hour12.classList.add("present");
 } else {
-  console.log("fart");
   hour12.classList.add("future");
 }
 
 if (hour13.classList[2] < hour) {
-  console.log("poop");
   hour13.classList.add("past");
 } else if (hour13.classList[2] == hour) {
-  console.log("pee");
   hour13.classList.add("present");
 } else {
-  console.log("fart");
   hour13.classList.add("future");
 }
 
 if (hour14.classList[2] < hour) {
-  console.log("poop");
   hour14.classList.add("past");
 } else if (hour14.classList[2] == hour) {
-  console.log("pee");
   hour14.classList.add("present");
 } else {
-  console.log("fart");
   hour14.classList.add("future");
 }
 
 if (hour15.classList[2] < hour) {
-  console.log("poop");
   hour15.classList.add("past");
 } else if (hour15.classList[2] == hour) {
-  console.log("pee");
   hour15.classList.add("present");
 } else {
-  console.log("fart");
   hour15.classList.add("future");
 }
 
+if (hour16.classList[2] < hour) {
+  hour16.classList.add("past");
+} else if (hour16.classList[2] == hour) {
+  hour16.classList.add("present");
+} else {
+  hour16.classList.add("future");
+}
+
+if (hour17.classList[2] < hour) {
+  hour17.classList.add("past");
+} else if (hour17.classList[2] == hour) {
+  hour17.classList.add("present");
+} else {
+  hour17.classList.add("future");
+}
 
 
 // function label() {
