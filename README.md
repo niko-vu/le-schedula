@@ -31,7 +31,11 @@ Click [here](https://niko-vu.github.io/le-schedula/) for the deployed applicatio
 
 ## Credits
 
-* ...
+* [Formatting Day.js assets](https://day.js.org/docs/en/display/format)
+* [Getting and setting the hour of the day](https://day.js.org/docs/en/get-set/hour)
+* [Current date](https://www.freecodecamp.org/news/javascript-get-current-date-todays-date-in-js/)
+* I referenced this [MDN Web Doc](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) to use getElementByID.
+* Used this [W3Schools page](https://www.w3schools.com/jsref/prop_node_textcontent.asp) to use textContent properly.
 
 ## License
 
