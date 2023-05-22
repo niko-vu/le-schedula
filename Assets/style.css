@@ -57,3 +57,13 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+/* Adding my own CSS  */
+.fixedHeader {
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+header h1, p {
+  text-align: center;
+}
